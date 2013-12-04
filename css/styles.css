@@ -99,7 +99,7 @@ li {
  ============ */
  
  h1 {
-	 padding: 10px 70px 10px 20px;
+	 padding: 1% 7% 1% 2%;
 	 bottom-border: 10px solid white;
 	 float: left;
  }
@@ -128,14 +128,14 @@ nav:after {
  ============ */
 
 article h2 {
-	padding: 0 20px 0 20px;
+	padding: 0 2% 0 2%;
 	float: left;
 }
 
 article p {
-	width: 400px;
+	width: 41.66666667%; /*400px/960px=41.666666667%*/
 	float: left;
-	padding: 0 20px 0 20px;
+	padding: 0 2% 0 2%;
 }
 
 article:after {
@@ -149,7 +149,7 @@ article:after {
 /*=============
  aside
  ============ */
-aside section h3,p,img{
+aside section {
 	padding: 0 20px 0 20px;
 	}
 
@@ -166,22 +166,22 @@ aside:after {
  ============ */
 
 section li {
-	display: block;
-	float: left;
-	padding: 10px 50px;
+	
+	background: purple;
+	
 }
 
 section li:nth-child(2) a{
 	
-	padding-left: 50px;
+	
 }
 section li:nth-child(3) a{
 	
-	padding-left: 30px;
+	
 }
 section li:nth-child(4) a{
 	
-	padding-left: 30px;
+	
 }
 
 
@@ -193,14 +193,14 @@ section li:nth-child(4) a{
 #girl {
 	float: left;
 	width: 350px;
-	padding: 25px 20px 20px 90px;
-		
+	padding: 2.6%;
+	
 }
 
 #group-flappers {
 	width: 350px;
 	float: right;
-	padding: 0 20px 0 20px;	
+		
 }
 
 #dancer { 
@@ -267,6 +267,12 @@ section li:nth-child(4) a{
 	aside {
 	float: none;
 	}
+	
+	#group-flappers {
+	width: 350px;
+	float: left;
+		
+}
  }
 /*end of mobile*/
 
