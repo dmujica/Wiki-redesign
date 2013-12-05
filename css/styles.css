@@ -76,7 +76,7 @@ a {
 
 footer {
 	font-size: .8em;
-	}
+}
 
 
 
@@ -132,7 +132,6 @@ nav:after {
   visibility: hidden;
 }
 
-
 /*=============
  article
  ============ */
@@ -159,9 +158,10 @@ article:after {
 /*=============
  aside
  ============ */
+ 
 aside section {
 	padding: 0 2% 0 2%;
-	}
+}
 
 aside:after {
   content: ".";
@@ -177,8 +177,7 @@ aside:after {
 
 footer {
 	padding: 0 2% 0 2%;
-	}
-
+}
 
 /*=============
  img
@@ -187,15 +186,13 @@ footer {
 #girl {
 	float: left;
 	width: 36.458333%; /*350px/960px=36.458333*/
-	padding: 2.6%;
-	
+	padding: 2.6%;	
 }
 
 #group-flappers {
 	width: 36.458333% ; /*350px/960px=36.458333*/
 	float: right;
-	padding: 0 0 0 2%;
-		
+	padding: 0 0 0 2%;		
 }
 
 #dancer { 
@@ -213,7 +210,7 @@ footer {
 	
  }
  
-/*end of tablet*/
+/*end of desktop*/
  
 
 /*=============
@@ -224,12 +221,13 @@ footer {
 	
 	article p{
 		width: 78.125%;
-		}
+	}
 		
 	#girl {
 		float: none;
 		padding: 0 0 0 4%;
 	}
+	
 	#group-flappers {
 		padding: 0 0 0 4%;
 	}
@@ -263,7 +261,7 @@ footer {
 	
 	aside h3 {
 	float: none;	
-}	
+	}	
 	
  }
  
@@ -286,6 +284,7 @@ footer {
 	#girl {
 		width: 72.916667%;
 	}
+	
 	#group-flappers {
 	width: 82.4216547%;
 	float: left;
