@@ -23,18 +23,22 @@ nav {
 	width: 96%; /*960px/960px=100%*/		
 }
 
+article {
+	width: 96%; /*640px/960px=66.6666666%*/
+}
+
 aside {
 	width: 96%; /*320px/960px=33.333333333%*/
 	
 }
 
-article {
-	width: 96%; /*640px/960px=66.6666666%*/
-}
-
 footer {
 	clear: both;
 	
+}
+
+img {
+	max-width: 96%;
 }
 
 /*=============
@@ -66,9 +70,15 @@ p {
 }
 
 a {
-font-size: 1.125em; /*18px/16px=1.125em*/
-color:white;
+	font-size: 1.125em; /*18px/16px=1.125em*/
+	color:white;
 }
+
+footer {
+	font-size: .8em;
+	}
+
+
 
 
 /*=============
@@ -111,7 +121,7 @@ li {
 nav li {
 	display: block;
 	float: left;
-	padding: 40px 10px;
+	padding: 4% 1%;
 }
 
 nav:after {
@@ -150,7 +160,7 @@ article:after {
  aside
  ============ */
 aside section {
-	padding: 0 20px 0 20px;
+	padding: 0 2% 0 2%;
 	}
 
 aside:after {
@@ -162,28 +172,12 @@ aside:after {
 }
 
 /*=============
- video collection
+ footer
  ============ */
 
-section li {
-	
-	background: purple;
-	
-}
-
-section li:nth-child(2) a{
-	
-	
-}
-section li:nth-child(3) a{
-	
-	
-}
-section li:nth-child(4) a{
-	
-	
-}
-
+footer {
+	padding: 0 2% 0 2%;
+	}
 
 
 /*=============
@@ -192,37 +186,22 @@ section li:nth-child(4) a{
 
 #girl {
 	float: left;
-	width: 350px;
+	width: 36.458333%; /*350px/960px=36.458333*/
 	padding: 2.6%;
 	
 }
 
 #group-flappers {
-	width: 350px;
+	width: 36.458333% ; /*350px/960px=36.458333*/
 	float: right;
+	padding: 0 0 0 2%;
 		
 }
 
 #dancer { 
 	float: left;
-}
-
-#smoker {
-	height: 195px;
-	width: 200px;
-	float: left;
-}
-
-#galoshes {
-	height: 195px;
-	width: 200px;
-	float: left;
-}
-
-#i-beam {
-	height: 195px;
-	width: 200px;
-	float: left;
+	width: 25%; /*200px x 195px*/
+	padding: 0 2% 0 0;
 }
 
 /*=============
@@ -230,9 +209,7 @@ section li:nth-child(4) a{
  ============ */
  
  @media screen and (max-width: 960px) {
-	body {
-		background:red;
-	}
+	
 	
  }
  
@@ -244,9 +221,49 @@ section li:nth-child(4) a{
  ============ */
  
  @media screen and (max-width: 768px) {
-	body {
-		background:green;
+	
+	article p{
+		width: 78.125%;
+		}
+		
+	#girl {
+		float: none;
+		padding: 0 0 0 4%;
 	}
+	#group-flappers {
+		padding: 0 0 0 4%;
+	}
+	
+	h1 {
+		float: none;
+		padding: 3% 0 0 4%;
+	}
+	
+	nav li {
+		float: none;
+		padding: 1.5% 1.5%;
+	}
+	nav ul {
+	 padding: 0 0 0 3%;	
+		}
+	
+	article h2 {
+		float: none;
+		padding: 0 0 0 4%;
+	}	
+	
+	article p {
+		float: none;
+		padding: 0 0 0 4%;
+	}
+	
+	aside {
+		padding: 0 0 0 2%;
+	}
+	
+	aside h3 {
+	float: none;	
+}	
 	
  }
  
@@ -257,9 +274,7 @@ section li:nth-child(4) a{
  ============ */
  
  @media screen and (max-width: 480px) {
-	body {
-		background:#03F;
-	}
+	
 	article {
 		float: none;
 	}
@@ -268,12 +283,26 @@ section li:nth-child(4) a{
 	float: none;
 	}
 	
+	#girl {
+		width: 72.916667%;
+	}
 	#group-flappers {
-	width: 350px;
+	width: 82.4216547%;
 	float: left;
-		
-}
- }
+	padding: 0 0 2% 0;
+	}
+	
+	article h2 {
+		float: none;
+	}
+
+	nav li {
+	display: inline;
+ 	}
+	
+	article p {
+	 width: 83.333333333%;
+		}
 /*end of mobile*/
 
  
